@@ -3,7 +3,7 @@ package openrtb
 // 5.3 Creative Attributes
 //
 // Standard list of creative attributes that can describe an ad being served or serve as restrictions of thereof.
-type CreativeAttribute int8
+type CreativeAttribute int32
 
 const (
 	CreativeAttributeAudioAdAutoPlay                                CreativeAttribute = 1  // Audio Ad (Auto-Play)
