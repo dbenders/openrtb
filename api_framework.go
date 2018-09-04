@@ -3,7 +3,7 @@ package openrtb
 // 5.6 API Frameworks
 //
 // List of API frameworks supported by the publisher.
-type APIFramework int8
+type APIFramework int32
 
 const (
 	APIFrameworkVPAID10 APIFramework = 1 // VPAID 1.0
